@@ -3,21 +3,27 @@ import './Home.css';
 
 function Home() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header className="Home-header">
       </header>
+      <div className='content'>
+        <div className='Home-sider'>
+          <div>
+            <p>ประเภท</p>
+            <button className='button'>เมนู1</button>
+            <button className='button'>เมนู2</button>
+            <button className='button'>เมนู3</button>
+            <button className='button'>เมนู4</button>
+            <button className='button'>เมนู5</button>
+          </div>
+        </div>
+        <div className='Home-content'>
+          <div>
+            <div className='column-1'></div>
+            <div className='column-2'></div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

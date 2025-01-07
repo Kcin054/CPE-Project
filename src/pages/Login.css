@@ -1,0 +1,18 @@
+
+
+.form-login {
+    background-color: rgb(200, 29, 29);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    background-color: aqua;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+}
